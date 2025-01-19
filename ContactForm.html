@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
     <title>Contact Form</title>
 </head>
-<body>
-    <h1>Student Registration Form</h1>
 
-    <form>
-        <table>
-            <tr>
-                <td>Name:</td>
-                <td><input type="text" placeholder="Enter your name"></td>
-            </tr>
-            <tr>
-                <td>Age</td>
-                <td><input type="number"  placeholder="Enter your age"></td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td><input type="number"  placeholder="Enter your address"></td>
-            </tr>
-            <tr>
-                <td>Department</td>
-                <td>
-                    <select>
-                        <option value="">Python Programming</option>
-                        <option value="fsd">Full Stack</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="submit"></td>
-            </tr>
-        </table>
-    </form>
-    <p>Social Media : <a href="www.instagram.com">Instagram</a> <a href="www.linkedin.com">Linkedin</a>
-    </p>
-    <p>
-        &copy;Kanagalakshmi</p>
+<body>
+    <div class="container">
+        <div class="section-one">
+            <h1 class="section-one__name">Kanagalakshmi</h1>
+            <p class="section-one__role">Web Developer</p>
+            <a class="section-one__contact" href="Portfolio.html">Home</a>
+        </div>
+        <div class="contact-form">
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="Enter your name" class="contact-form__input"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" placeholder="Enter your age" class="contact-form__input"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea class="contact-form__textarea" placeholder="Enter your address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td>
+                        <select class="contact-form__input">
+                            <option value="">Python Programming</option>
+                            <option value="fsd">Full Stack</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" class="contact-form__submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+        <div class="section-five">
+            <p class="section-five__title">Social Media :
+                <a href="www.instagram.com">Instagram</a>
+                <a href="www.linkedin.com">Linkedin</a>
+            </p>
+            <p class="section-five__description">
+                &copy;Kanagalakshmi</p>
+        </div>
+    </div>
 </body>
+
 </html>
