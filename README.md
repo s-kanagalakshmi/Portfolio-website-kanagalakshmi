@@ -1,5 +1,7 @@
+Welcome to My Portfolio!!
+-------------------------
 Hi there!!!
-Welcome to My Portfolio!!My personal portfolio website built with HTML and CSS,featuring two core pages: 
+My personal portfolio website built with HTML and CSS,featuring two core pages: 
 *A Home page 
 *A Contact page.
 
