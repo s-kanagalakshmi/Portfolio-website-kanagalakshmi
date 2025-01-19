@@ -22,4 +22,4 @@ CSS: For design and styling.
 Demo
 View the live website here:
 
---------Thank you Visiting my PORTFOLIO WEBSITE-------
+--------Thank you for visiting my PORTFOLIO WEBSITE-------
